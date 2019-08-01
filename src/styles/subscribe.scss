@@ -1,0 +1,21 @@
+@import './reset.scss';
+@import './variables.scss';
+
+.signup {
+  border: 4px solid $highlight-blue;
+  border-radius: 0.3rem;
+  margin: auto;
+  width: 60%;
+  text-align: center;
+
+  h2 {
+    color: $strong-blue;
+    margin: 2rem 0;
+    font-size: 2.5rem;
+  }
+
+  p {
+    color: $med-blue;
+    margin: 2rem;
+  }
+}

@@ -1,0 +1,51 @@
+@import './reset.scss';
+@import './variables.scss';
+
+.header {
+  text-align: center;
+  margin: 2rem 2.5rem;
+
+  .writing-header {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    color: $strong-blue;
+  }
+}
+
+hr {
+  border: 1px solid $strong-blue;
+  margin-bottom: 2rem;
+}
+
+.post-container {
+  margin: auto;
+  display: flex;
+  width: 60%;
+  flex-wrap: wrap;
+  padding: 5rem;
+  justify-content: space-between;
+
+  .post {
+    border: 1px solid $med-blue;
+    border-radius: 0.3rem;
+    box-shadow: 4px 2px 6px $highlight-blue;
+    width: 45%;
+    padding: 1rem;
+    text-align: center;
+    color: $strong-blue;
+    margin: auto;
+    text-decoration: none;
+
+    a {
+      font-weight: bold;
+      color: $strong-blue;
+    }
+    p {
+      margin-top: 1rem;
+    }
+  }
+}
+
+.post-border {
+  margin: 2rem 0;
+}
