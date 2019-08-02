@@ -22,19 +22,18 @@ const About = () => {
           </p>
           <br />
           <p>
-            My mission is to improve the general quality of life. I care about
-            the communities we live in and the institutions that support us. I'm
-            really interested in economics, cities, and history. If any of those
-            things are interesting to you,{' '}
+            I'm on a mission to improve the general quality of life. I'm really
+            interested in startups, economics, cities, and history. If any of
+            those things are interesting to you,{' '}
             <a href="mailto:hi@darienpayton.com">drop me a line</a>.
           </p>
           <br />
           <p>
-            I recently decided to write more seriously and in public. I started
-            a newsletter, On Brown Street, I send out every Thursday. It
-            contains stories and links I found interesting, plus new essays.
-            It's also a great chance for us to get to know each other better - I
-            ask how I can help you every week. You should{' '}
+            Recently, I decided to write more seriously and in public - mostly
+            for my own process. So, I started a newsletter, On Brown Street, I
+            send out every Thursday. It contains stories and links I found
+            interesting, plus new essays. It's also a great chance for you to
+            let me know what you're working on and how I can help. You should{' '}
             <a href="/join">sign up</a>!
           </p>
         </div>
