@@ -5,7 +5,6 @@ const Article = styled.div`
   background: #fcfcfd;
   width: 80%
   margin: auto;
-  border: 1px solid red;
   border-radius: .3rem;
 `;
 
