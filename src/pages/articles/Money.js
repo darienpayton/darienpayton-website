@@ -18,7 +18,7 @@ const Money = () => {
             <p className="date">August 2, 2019</p>
             <p className="text">
               Money is a real hush topic. Like most people I know, I grew up not
-              being taught about money. In fact, conversations about money was
+              being taught about money. In fact, conversations about money were
               actively avoided. Avoidance created obscurity; obscurity prevents
               focus and accomplishment. Things changed when I got a wealthy
               mentor. Here are the three components of money everyone should
