@@ -8,9 +8,25 @@
 .article-container {
   width: 70%;
   margin: auto;
-  border: 1px solid green;
+
+  @media (max-width: $mobile) {
+    width: 100%;
+  }
 
   .title {
     text-align: center;
+    margin-bottom: 0.5rem;
+    font-size: 3rem;
+    color: $strong-blue;
+  }
+
+  .date {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  p {
+    margin-bottom: 1rem;
+    color: $strong-blue;
   }
 }

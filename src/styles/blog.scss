@@ -25,6 +25,10 @@ hr {
   padding: 5rem;
   justify-content: space-between;
 
+  @media (max-width: $mobile) {
+    width: 100%;
+  }
+
   .post {
     border: 1px solid $med-blue;
     border-radius: 0.3rem;
@@ -35,6 +39,10 @@ hr {
     color: $strong-blue;
     margin: auto;
     text-decoration: none;
+
+    @media (max-width: $mobile) {
+      width: 80%;
+    }
 
     a {
       font-weight: bold;

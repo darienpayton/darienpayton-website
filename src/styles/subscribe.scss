@@ -8,6 +8,10 @@
   width: 60%;
   text-align: center;
 
+  @media (max-width: $mobile) {
+    width: 100%;
+  }
+
   h2 {
     color: $strong-blue;
     margin: 2rem 0;
@@ -15,7 +19,12 @@
   }
 
   p {
+    margin: auto;
     color: $med-blue;
-    margin: 2rem;
+    width: 80%;
+
+    &:last-of-type {
+      margin-bottom: 2rem;
+    }
   }
 }

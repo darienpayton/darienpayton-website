@@ -1,5 +1,6 @@
 import React from 'react';
 import MailchimpSubscribe from 'react-mailchimp-subscribe';
+import MediaQuery from 'react-responsive';
 
 import '../styles/subscribe.scss';
 
@@ -29,30 +30,64 @@ const CustomForm = ({ status, message, onValidated }) => {
           dangerouslySetInnerHTML={{ __html: message }}
         />
       )}
-      <input
-        style={{
-          marginRight: '.5rem',
-          padding: '1rem',
-          width: '40%',
-          fontSize: '1rem'
-        }}
-        ref={node => (email = node)}
-        type="email"
-        placeholder="Your email"
-      />
-      <button
-        style={{
-          width: '20%',
-          padding: '1rem',
-          backgroundColor: '#fcfcfd',
-          color: '#226597',
-          fontSize: '1rem',
-          borderRadius: '.3rem'
-        }}
-        onClick={submit}
-      >
-        Subscribe
-      </button>
+      <MediaQuery minDeviceWidth={700}>
+        <input
+          style={{
+            marginRight: '.5rem',
+            padding: '1rem',
+            width: '40%',
+            fontSize: '1rem'
+          }}
+          ref={node => (email = node)}
+          type="email"
+          placeholder="Email Address"
+        />
+      </MediaQuery>
+      <MediaQuery maxDeviceWidth={500}>
+        <input
+          style={{
+            textAlign: 'center',
+            padding: '1rem',
+            width: '100%',
+            fontSize: '1rem'
+          }}
+          ref={node => (email = node)}
+          type="email"
+          placeholder="Email Address"
+        />
+      </MediaQuery>
+      <MediaQuery maxDeviceWidth={500}>
+        <button
+          style={{
+            width: '35%',
+            padding: '1rem',
+            backgroundColor: '#fcfcfd',
+            color: '#226597',
+            fontSize: '1rem',
+            border: '3px solid #226597',
+            borderRadius: '.3rem'
+          }}
+          onClick={submit}
+        >
+          Subscribe
+        </button>
+      </MediaQuery>
+      <MediaQuery minDeviceWidth={700}>
+        <button
+          style={{
+            width: '30%',
+            padding: '1rem',
+            backgroundColor: '#fcfcfd',
+            color: '#226597',
+            fontSize: '1rem',
+            border: '3px solid #226597',
+            borderRadius: '.3rem'
+          }}
+          onClick={submit}
+        >
+          Subscribe
+        </button>
+      </MediaQuery>
     </div>
   );
 };
@@ -63,11 +98,11 @@ const Subscribe = () => {
 
   return (
     <div className="signup">
-      <h2>Newsletter</h2>
+      <h2>On Brown Street</h2>
       <p>
         Every Thursday I send out a newsletter containing stories and links I
-        found interesting. It's a great chance for us to get to know each other
-        better - I ask how I can help you and I (infrequently) ask your help.
+        found interesting, plus new essays. To make it even better: every week,
+        you get a chance to tell me how I can help you.
       </p>
       <MailchimpSubscribe
         url={url}
