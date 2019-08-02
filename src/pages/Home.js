@@ -14,12 +14,11 @@ function Home() {
         <div className="top-content">
           <p className="line1">Hello, my name is</p>
           <h1 className="line2">Darien Payton.</h1>
-          <p className="line3">I create things for the Internet.</p>
+          <p className="line3">I'm building a better future.</p>
           <p className="line4">
             {' '}
-            I build software (for myself and other people) and write about
-            things I find interesting. I'm just a curious guy. You can learn
-            more about me <a href="/about">here!</a>
+            I'm curious improving the quality of life. Learn more about me{' '}
+            <a href="/about">here!</a>
           </p>
         </div>
 
