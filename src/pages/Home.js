@@ -17,7 +17,7 @@ function Home() {
           <p className="line3">I'm building a better future.</p>
           <p className="line4">
             {' '}
-            I'm curious improving the quality of life. Learn more about me{' '}
+            I'm curious about improving the quality of life. Learn more about me{' '}
             <a href="/about">here!</a>
           </p>
         </div>
