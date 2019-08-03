@@ -23,8 +23,8 @@ const About = () => {
           <br />
           <p>
             I'm on a mission to improve the general quality of life. I'm really
-            interested in startups, economics, cities, and history. If any of
-            those things are interesting to you,{' '}
+            interested in startups, social science and culture. If any of those
+            things are interesting to you,{' '}
             <a href="mailto:hi@darienpayton.com">drop me a line</a>.
           </p>
           <br />
