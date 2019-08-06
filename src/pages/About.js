@@ -30,7 +30,7 @@ const About = () => {
           <br />
           <p>
             Recently, I decided to write more seriously and in public - mostly
-            for my own process. So, I started a newsletter, On Brown Street, I
+            for my own process. I've started a newsletter, On Brown Street, I
             send out every Thursday. It contains stories and links I found
             interesting, plus new essays. It's also a great chance for you to
             let me know what you're working on and how I can help. You should{' '}
