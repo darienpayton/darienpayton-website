@@ -9,7 +9,7 @@ const Blog = () => {
     <Background>
       <NavBar />
       <div className="header">
-        <h1 className="writing-header">Writing</h1>
+        <h1 className="page-header">Writing</h1>
       </div>
       <hr />
       <div className="post-container">
