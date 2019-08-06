@@ -81,7 +81,8 @@ const CustomForm = ({ status, message, onValidated }) => {
             color: '#226597',
             fontSize: '1rem',
             border: '3px solid #226597',
-            borderRadius: '.3rem'
+            borderRadius: '.3rem',
+            cursor: 'pointer'
           }}
           onClick={submit}
         >
