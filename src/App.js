@@ -6,6 +6,7 @@ import Money from './pages/articles/Money';
 import About from './pages/About';
 import Projects from './pages/Projects';
 import Newsletter from './pages/Newsletter';
+import ComplicatedThings from './pages/articles/ComplicatedThings';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Route path="/money" component={Money} />
       <Route path="/projects" component={Projects} />
       <Route path="/join" component={Newsletter} />
+      <Route path="/complicatedthings" component={ComplicatedThings} />
     </div>
   );
 }

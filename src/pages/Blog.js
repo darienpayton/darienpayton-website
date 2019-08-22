@@ -20,6 +20,13 @@ const Blog = () => {
             wealthy mentor.
           </p>
         </div>
+        <div className="post">
+          <a href="/complicatedthings">Why We Complicate Things</a>
+          <p>
+            The best solution is usually the simplest. So, why do we create
+            complicated solutions so often?
+          </p>
+        </div>
       </div>
     </Background>
   );
