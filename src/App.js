@@ -16,7 +16,7 @@ function App() {
       <Route path="/about" component={About} />
       <Route path="/money" component={Money} />
       <Route path="/projects" component={Projects} />
-      <Route path="/join" component={Newsletter} />
+      <Route path="/newsletter" component={Newsletter} />
       <Route path="/complicatedthings" component={ComplicatedThings} />
     </div>
   );
