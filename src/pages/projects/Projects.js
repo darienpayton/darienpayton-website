@@ -1,8 +1,8 @@
 import React from 'react';
-import Background from '../components/Background';
-import NavBar from '../components/NavBar';
+import Background from '../../components/Background';
+import NavBar from '../../components/NavBar';
 
-import '../styles/projects.scss';
+import './projects.scss';
 
 function Projects() {
   return (

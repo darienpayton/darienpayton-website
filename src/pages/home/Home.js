@@ -1,10 +1,10 @@
 import React from 'react';
-import Background from '../components/Background';
-import NavBar from '../components/NavBar';
+import Background from '../../components/Background';
+import NavBar from '../../components/NavBar';
 import { FaGithub, FaLinkedin, FaTwitterSquare } from 'react-icons/fa';
-import Subscribe from '../components/Subscribe';
+import Subscribe from '../../components/Subscribe';
 
-import '../styles/home.scss';
+import './home.scss';
 
 function Home() {
   return (

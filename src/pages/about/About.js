@@ -1,9 +1,9 @@
 import React from 'react';
-import Background from '../components/Background';
-import NavBar from '../components/NavBar';
+import Background from '../../components/Background';
+import NavBar from '../../components/NavBar';
 import headshot from '../img/DPheadshot.jpeg';
 
-import '../styles/about.scss';
+import './about.scss';
 
 const About = () => {
   return (
