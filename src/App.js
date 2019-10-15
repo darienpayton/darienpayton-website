@@ -5,7 +5,7 @@ import Blog from './pages/blog/Blog';
 import Money from './pages/articles/Money';
 import About from './pages/about/About';
 import Projects from './pages/projects/Projects';
-import Newsletter from './pages/Newsletter';
+import Newsletter from './pages/newsletter/Newsletter';
 import ComplicatedThings from './pages/articles/ComplicatedThings';
 
 function App() {

@@ -1,7 +1,7 @@
 import React from 'react';
 import Background from '../../components/Background';
 import NavBar from '../../components/NavBar';
-import headshot from '../img/DPheadshot.jpeg';
+import headshot from '../../img/DPheadshot.jpeg';
 
 import './about.scss';
 
