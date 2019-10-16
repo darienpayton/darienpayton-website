@@ -4,14 +4,32 @@
 .intro {
   margin: 0 2.5rem;
   height: 100%;
+  display: flex;
+  flex-direction: column;
 
   @media (max-width: $mobile) {
     text-align: center;
   }
 }
 
+.img-container {
+  width: 20%;
+  margin: auto;
+
+  img {
+    width: 90%;
+    height: 90%;
+    border-radius: 15rem;
+    margin-bottom: 2rem;
+  }
+}
+
 .top-content {
   width: 60%;
+  margin: auto;
+  padding-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
 
   @media (max-width: $mobile) {
     width: 100%;
@@ -20,21 +38,26 @@
 
   .line1 {
     color: $highlight-blue;
-    font-size: 1rem;
+    font-size: 1.7rem;
+    text-align: center;
   }
   .line2 {
     color: $strong-blue;
-    font-size: 2.5rem;
+    font-size: 4rem;
+    text-align: center;
   }
   .line3 {
     color: $med-blue;
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin-bottom: 2rem;
+    text-align: center;
   }
   .line4 {
     color: $med-blue;
     font-size: 1rem;
-    width: 40%;
+    width: 80%;
+    margin: auto;
+    text-align: center;
 
     @media (max-width: $mobile) {
       width: 100%;
@@ -49,8 +72,8 @@
 
 .social {
   display: flex;
-  margin: 2rem 0;
-  padding: 1rem 0;
+  margin: auto;
+  padding-top: 2rem;
 
   @media (max-width: $mobile) {
     justify-content: center;
