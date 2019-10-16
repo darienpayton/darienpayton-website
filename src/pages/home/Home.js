@@ -23,8 +23,8 @@ function Home() {
             I make things, write mostly short-form and play piano. I was born
             and raised in Chicago. I spent three years living in Atlanta, before
             moving back to Chicago. A year ago, I was running a digital
-            marketing shop, today I am a software engineer. A lot has changed,
-            and it's been a fun ride! You can learn more about me{' '}
+            marketing consultancy, today I am a software engineer. A lot has
+            changed, and it's been a fun ride! You can learn more about me{' '}
             <a href="/about">here</a>.
           </p>
         </div>
