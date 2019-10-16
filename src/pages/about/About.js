@@ -1,7 +1,6 @@
 import React from 'react';
 import Background from '../../components/Background';
 import NavBar from '../../components/NavBar';
-import headshot from '../../img/DPheadshot.jpeg';
 
 import './about.scss';
 
@@ -10,31 +9,57 @@ const About = () => {
     <Background>
       <NavBar />
       <div>
-        <div className="img-container">
-          <img src={headshot} alt="Darien Payton headshot" />
-        </div>
+        <h1 className="bio-header">About Me</h1>
         <div className="about-details">
           <p>
-            Hi, I'm Darien. I live in Chicago, IL. In my past, I studied at
-            Morehouse and ran a marketing consultancy that worked with brands on
-            marketing strategy and production. These days, I'm at Lambda School
-            learning about Full-Stack Web Development.
+            I live in Chicago, where I grew up. I spent three years in Atlanta
+            doing a bunch of things. I would say that Atlanta is where I learned
+            the most in my adult life.
           </p>
           <br />
           <p>
-            I'm on a mission to improve the general quality of life. I'm really
-            interested in startups, social science and culture. If any of those
-            things are interesting to you,{' '}
-            <a href="mailto:hi@darienpayton.com">drop me a line</a>.
+            I started off in Atlanta at Morehouse College, though I only
+            finished my first year. Morehouse was one of the best things to
+            happen to me. In tech, it sounds cool to say you dropped out of
+            college, but that wasn't the case here. I intended to go back my
+            sophomore year. But, that didn't work out. Instead, I built a
+            digital marketing consultancy working with companies like
+            Chick-fil-A, Keller Williams and Teach for America, along with a
+            host of small businesses. My first foray with business actually came
+            in high school where some friends and I would sell snacks to other
+            students. I would provide capital (earned from gigs as a freelance
+            musician) and my friends would sell the snacks and we would do a
+            revenue share. After running the consultancy for a couple of years,
+            I decided to join Lambda School to learn how to code, while I
+            thought about my next "big thing".
           </p>
           <br />
           <p>
-            Recently, I decided to write more seriously and in public - mostly
-            for my own process. I've started a newsletter, On Brown Street, I
-            send out every Thursday. It contains stories and links I found
-            interesting, plus new essays. It's also a great chance for you to
-            let me know what you're working on and how I can help. You should{' '}
-            <a href="/join">sign up</a>!
+            These days, I'm working on making more things and doing more
+            experimentation. I was once an advocate of the "go big or go home"
+            mantra so often heralded in the tech world, but I no longer think
+            that fits the type of future I want for myself. It took a while to
+            recognize this wasn't a sign of failure, or giving up, but just
+            self-awareness and a decision to live life on my own terms. That
+            said, I'm still a fan of startups, tech and founders who are
+            building huge (read: $1B+) businesses. I have a lot of interests,
+            including: cities, finance, programming, design, music,
+            architecture, movies, cars and sports. Some of these I care about
+            more than others.
+          </p>
+          <br />
+          <p>
+            I write about a range of topics, mostly around those interests, and
+            you can read those in my <a href="/blog">blog</a>. I also send out a
+            weekly <a href="/newsletter">newsletter</a> called On Brown Street
+            (a nod to a popular street at Morehouse). Some of the featured{' '}
+            <a href="/projects">things I've made</a> are also here.
+          </p>
+          <br />
+          <p>
+            I hang out a lot on{' '}
+            <a href="https://twitter.com/darienpayton">Twitter</a>. Feel free to
+            say hi! Or you can email me at hi at darien payton dot com.
           </p>
         </div>
       </div>
