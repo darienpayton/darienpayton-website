@@ -15,10 +15,7 @@ const NavBar = () => {
         Writing
       </a>
       <a className="item" href="/projects">
-        Projects
-      </a>
-      <a className="item" href="https://twitter.com/darienpayton">
-        Twitter
+        Things I've Made
       </a>
     </div>
   );
