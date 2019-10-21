@@ -101,9 +101,9 @@ const Subscribe = () => {
     <div className="signup">
       <h2>On Brown Street Newsletter</h2>
       <p>
-        Every Thursday I send out a letter sharing my thoughts on a random
-        topic, mostly around tech and startups, and links to interesting stories
-        I find on the internet.
+        Every Thursday I send you a letter containing links to the most
+        interesting stories I find on the internet, and also sharing my thoughts
+        on a hot topic.
       </p>
       <MailchimpSubscribe
         url={url}

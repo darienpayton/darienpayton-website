@@ -9,12 +9,13 @@ const About = () => {
     <Background>
       <NavBar />
       <div>
-        <h1 className="bio-header">About Me</h1>
+        <h1 className="bio-header">More about me...</h1>
         <div className="about-details">
           <p>
-            I live in Chicago, where I grew up. I spent three years in Atlanta
-            doing a bunch of things. I would say that Atlanta is where I learned
-            the most in my adult life.
+            I live in Chicago, where I grew up. I've also lived in Atlanta for
+            about 3 years. Though it was a relatively short amount of time, I
+            would say that living in Atlanta was one of the most impactful
+            experiences on my life.
           </p>
           <br />
           <p>
@@ -49,11 +50,13 @@ const About = () => {
           </p>
           <br />
           <p>
-            I write about a range of topics, mostly around those interests, and
-            you can read those in my <a href="/blog">blog</a>. I also send out a
-            weekly <a href="/newsletter">newsletter</a> called On Brown Street
-            (a nod to a popular street at Morehouse). Some of the featured{' '}
-            <a href="/projects">things I've made</a> are also here.
+            I write about a range of topics that you can read in my{' '}
+            <a href="/blog">blog</a>. I also send out a weekly{' '}
+            <a href="/newsletter">newsletter</a> called On Brown Street (a nod
+            to a popular street at Morehouse). It's a great way for us to get to
+            know each other better. If you're interested, there's a featured
+            list of <a href="/projects">things I've made</a> here on the
+            website.
           </p>
           <br />
           <p>
