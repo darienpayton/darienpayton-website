@@ -1,51 +1,42 @@
 @import '../../styles/reset.scss';
 @import '../../styles/variables.scss';
 
-.project-container {
-  // border: 1px solid red;
+.section-header {
+  margin: 2rem 2.5rem;
+  .section-title {
+    font-size: 1rem;
+    color: $strong-blue;
+  }
+}
+
+.featured-container {
   padding: 0 2.5rem;
 
-  .project {
-    margin-bottom: 2rem;
-
-    h3 {
-      font-size: 1.5rem;
-      font-weight: bolder;
-      color: $strong-blue;
-    }
+  .featured {
+    margin-bottom: 1.7rem;
   }
 }
 
 .desc {
   display: flex;
+  width: 60%;
+
+  .title {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: $strong-blue;
+    text-decoration-line: none;
+
+    &:hover,
+    &:focus {
+      transform: translateY(-0.25em);
+      color: $highlight-blue;
+    }
+  }
 
   p {
     align-self: center;
+    margin-left: auto;
     color: $med-blue;
-  }
-
-  .refs {
-    display: flex;
-    margin: auto;
-    width: 40%;
-    justify-content: center;
-
-    a {
-      color: $med-blue;
-      margin-right: 0.5rem;
-      text-align: center;
-      width: 30%;
-      padding: 0.5rem 1rem;
-      font-size: 1rem;
-      border: 3px solid $strong-blue;
-      border-radius: 0.3rem;
-      text-decoration: none;
-
-      &:hover,
-      &:focus {
-        box-shadow: 0 0.5em 0.5em -0.4em $highlight-blue;
-        transform: translateY(-0.25em);
-      }
-    }
   }
 }
