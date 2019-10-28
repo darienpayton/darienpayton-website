@@ -1,0 +1,31 @@
+@import '../../styles/reset.scss';
+@import '../../styles/variables.scss';
+
+.content {
+  margin: 0 2.5rem;
+  display: flex;
+  flex-direction: column;
+
+  h2 {
+    color: $med-blue;
+    font-size: 1.3rem;
+    margin-bottom: 1.4rem;
+    text-align: center;
+  }
+
+  .archive {
+    font-size: 1rem;
+    font-weight: bolder;
+    color: $strong-blue;
+    text-decoration-line: none;
+    display: block;
+    margin-bottom: 1rem;
+    width: max-content;
+
+    &:hover,
+    &:focus {
+      transform: translateY(-0.25em);
+      color: $highlight-blue;
+    }
+  }
+}
