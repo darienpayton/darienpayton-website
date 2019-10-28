@@ -25,6 +25,14 @@ function Projects() {
         </div>
         <div className="featured">
           <div className="desc">
+            <a className="title" href="https://getrooma.com">
+              Rooma
+            </a>
+            <p>Landing page for matching roommates</p>
+          </div>
+        </div>
+        <div className="featured">
+          <div className="desc">
             <a className="title" href="https://darienpayton.com">
               Portfolio Site
             </a>
