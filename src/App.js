@@ -7,6 +7,7 @@ import About from './pages/about/About';
 import Projects from './pages/projects/Projects';
 import Newsletter from './pages/newsletter/Newsletter';
 import ComplicatedThings from './pages/articles/ComplicatedThings';
+import Archives from './pages/newsletter/Archives';
 
 function App() {
   return (
@@ -16,8 +17,9 @@ function App() {
       <Route path="/about" component={About} />
       <Route path="/money" component={Money} />
       <Route path="/projects" component={Projects} />
-      <Route path="/newsletter" component={Newsletter} />
+      <Route exact path="/newsletter" component={Newsletter} />
       <Route path="/complicatedthings" component={ComplicatedThings} />
+      <Route path="/newsletter/archives" component={Archives} />
     </div>
   );
 }
