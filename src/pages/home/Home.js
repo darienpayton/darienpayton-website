@@ -29,6 +29,9 @@ function Home() {
           </p>
         </div>
         <Subscribe />
+        <a href="/newsletter/archives" className="archives-redirect">
+          <p className="archives-text">Show me past letters &#8594;</p>
+        </a>
         <ul className="social">
           <li>
             <a href="https://twitter.com/darienpayton">
