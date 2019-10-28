@@ -70,6 +70,16 @@
   }
 }
 
+.archives-redirect {
+  text-decoration: none;
+
+  .archives-text {
+    color: $med-blue;
+    margin-top: 2rem;
+    text-align: center;
+  }
+}
+
 .social {
   display: flex;
   margin: auto;
